@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2024-02-28T00:42:27.836Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="fCnGT8B43f9ozYQTpMEd" version="23.1.7" type="github">
+  <diagram id="uMABeT0YzXhWw6rtS2eQ" name="Page-1">
+    <mxGraphModel dx="2284" dy="1838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8zYmm91vcpFitBp-xxtU-1" value="Introdução à Programação" style="ellipse;sketch=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="557" y="105" width="163" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-2" value="Unidade 2" style="sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="543.9417145876976" y="195.9110991546882" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-3" value="" style="sketch=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-1" target="8zYmm91vcpFitBp-xxtU-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-4" value="Unidade 3" style="sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="457.0920232120054" y="102.3093928595498" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-5" value="" style="sketch=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-1" target="8zYmm91vcpFitBp-xxtU-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-6" target="XGBR0hMa8MfoztDlez58-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-6" target="XGBR0hMa8MfoztDlez58-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-6" value="Unidade 1" style="sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="543.9417145876976" y="-35.9110991546882" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-7" value="" style="sketch=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-1" target="8zYmm91vcpFitBp-xxtU-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-8" value="Qual é a diferença entre Algoritmo e Código em uma Linguagem de Programação?" style="sketch=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="235.00000000000003" y="-221" width="454.52" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-9" value="" style="sketch=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-6" target="8zYmm91vcpFitBp-xxtU-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-10" value="O que é a Introdução à Programação?" style="sketch=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="601.87" y="-158.49" width="213.13" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-11" value="" style="sketch=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-6" target="8zYmm91vcpFitBp-xxtU-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-12" value="Resolução de Problemas" style="sketch=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="512.88" y="311.82" width="147.12" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-13" value="" style="sketch=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-2" target="8zYmm91vcpFitBp-xxtU-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-14" value="IDE" style="sketch=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="371.7861921852118" y="207.6876983636808" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-15" value="" style="sketch=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-4" target="8zYmm91vcpFitBp-xxtU-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-16" value="Linguagem" style="sketch=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="339.18404642401083" y="35.381214280900565" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8zYmm91vcpFitBp-xxtU-17" value="" style="sketch=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-4" target="8zYmm91vcpFitBp-xxtU-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-2" value="Como &quot;transformar&quot; um enunciado (problema) em algo que possa ser computado?" style="sketch=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="-108" y="-139" width="442" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-8" value="Porque dividimos o problema a ser resolvido em Entradas / Processos / Saídas ?" style="sketch=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="703.94" y="-35.91" width="446.06" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-12" value="Unidade 4" style="sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="726.0017145876975" y="204.0010991546882" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-13" value="" style="sketch=1;exitX=1;exitY=1;exitDx=0;exitDy=0;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-1" target="XGBR0hMa8MfoztDlez58-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="824.3646910255588" y="145.99978565167035" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-14" value="Unidade 5" style="sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="795.0017145876975" y="122.0010991546882" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-15" value="" style="sketch=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-1" target="XGBR0hMa8MfoztDlez58-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="881.3646910255588" y="76.17978565167036" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-16" value="Unidade 6" style="sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="799.0017145876975" y="58.2910991546882" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-17" value="" style="sketch=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-1" target="XGBR0hMa8MfoztDlez58-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885.3646910255588" y="12.46978565167035" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-18" value="Unidade 7" style="sketch=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="707.0017145876975" y="42.0010991546882" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XGBR0hMa8MfoztDlez58-19" value="" style="sketch=1;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-1" target="XGBR0hMa8MfoztDlez58-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="57" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Quem é este &quot;louco&quot; (professor) que vocês terão que escutar fica falando (e falando muito)?" link="https://github.com/afburger" id="XGBR0hMa8MfoztDlez58-28">
+          <mxCell style="sketch=1;rounded=1;" parent="1" vertex="1">
+            <mxGeometry x="852.69" y="-261" width="493.31" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="XGBR0hMa8MfoztDlez58-29" value="" style="sketch=1;exitX=1;exitY=0;exitDx=0;exitDy=0;curved=1;" parent="1" source="8zYmm91vcpFitBp-xxtU-6" target="XGBR0hMa8MfoztDlez58-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="849.9959781380055" y="-138.42109915468814" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
