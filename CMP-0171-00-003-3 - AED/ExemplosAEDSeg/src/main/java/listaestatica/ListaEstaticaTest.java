@@ -1,8 +1,8 @@
 package listaestatica;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class ListaEstaticaTest {
 
@@ -85,9 +85,9 @@ class ListaEstaticaTest {
         lista.inserir(15);
         lista.inserir(20);
 
-        int valorEncontrado = lista.buscar(3);
+        int valorEncontrado = lista.buscar(20);
 
-        assertEquals(20, valorEncontrado);
+        assertEquals(3, valorEncontrado);
     }
 
 
@@ -98,13 +98,8 @@ class ListaEstaticaTest {
         lista.inserir(15);
         lista.inserir(20);
 
-        try {
-            lista.buscar(5);
-            fail();
-        } catch (IndexOutOfBoundsException e) {
-        	System.out.println("Se recusou a obter o elemento 5");
-            // se recusou obterElemento(5), está correto
-        }
+        int buscar = lista.buscar(3);
+        assertEquals(-1, buscar);
     }
 
 

@@ -77,4 +77,18 @@ public class ListaEstatica {
 		info = new int[10];
 		tamanho = 0;
 	}
+	
+	@Override
+	public String toString() {
+		String resultado = "";
+
+		for (int i = 0; i < tamanho; i++) {
+			if (i > 0) {
+				resultado += ",";
+			}
+			resultado += info[i];
+		}
+
+		return resultado;
+	}
 }

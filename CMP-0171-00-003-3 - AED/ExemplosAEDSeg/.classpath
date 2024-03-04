@@ -7,12 +7,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/apiguardian-api-1.1.0.jar"/>
-	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-jupiter-5.7.0.jar"/>
-	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-jupiter-api-5.7.0.jar"/>
-	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-jupiter-engine-5.7.0.jar"/>
-	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-jupiter-params-5.7.0.jar"/>
-	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-platform-commons-1.7.0.jar"/>
-	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-platform-engine-1.7.0.jar"/>
+	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-jupiter-5.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-jupiter-api-5.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-jupiter-engine-5.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-jupiter-params-5.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-platform-commons-1.10.0.jar"/>
+	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/junit-platform-engine-1.10.0.jar"/>
 	<classpathentry kind="lib" path="D:/dev/workspace/FURB/furb/CMP-0171-00-003-3 - AED/lib/opentest4j-1.2.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
