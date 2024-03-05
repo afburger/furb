@@ -49,4 +49,22 @@ public class ListaEstatica {
 			tamanho--;
 		}
 	}
+	
+	public int getTamanho() {
+		return tamanho;
+	}
+	
+	@Override
+	public String toString() {
+		String resultado = "";
+
+		for (int i = 0; i < tamanho; i++) {
+			if (i > 0) {
+				resultado += ",";
+			}
+			resultado += info[i];
+		}
+
+		return resultado;
+	}
 }
