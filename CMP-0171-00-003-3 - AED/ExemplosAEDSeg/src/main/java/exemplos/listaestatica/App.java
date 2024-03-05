@@ -1,4 +1,4 @@
-package listaestatica;
+package exemplos.listaestatica;
 
 public class App {
 
