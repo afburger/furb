@@ -1,5 +1,7 @@
 package exercicios.lista01;
 
+import java.util.Objects;
+
 public class Carro {
 
 	private String placa;
@@ -26,10 +28,7 @@ public class Carro {
 
 	@Override
 	public int hashCode() {
-		final int prime = 31;
-		int result = 1;
-		result = prime * result + ((placa == null) ? 0 : placa.hashCode());
-		return result;
+		return Objects.hash(placa);
 	}
 
 	@Override
@@ -41,13 +40,8 @@ public class Carro {
 		if (getClass() != obj.getClass())
 			return false;
 		Carro other = (Carro) obj;
-		if (placa == null) {
-			if (other.placa != null)
-				return false;
-		} else if (!placa.equals(other.placa))
-			return false;
-		return true;
+		return Objects.equals(placa, other.placa);
 	}
-	
+
 	
 }

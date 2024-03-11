@@ -1,10 +1,10 @@
-package exemplos.listaestatica;
+package exercicios.lista02;
 
-public class App {
+public class AppListaGenerica {
 
 	public static void main(String[] args) {
 
-		ListaEstatica listaEstatica = new ListaEstatica();
+		ListaEstaticaGenerica<Integer> listaEstatica = new ListaEstaticaGenerica<>();
 
 		listaEstatica.inserir(5);
 		listaEstatica.inserir(15);
@@ -23,6 +23,9 @@ public class App {
 
 		System.out.println("#########################################################");
 
+		listaEstatica.inverter();
+
+		listaEstatica.exibir();
 
 	}
 }

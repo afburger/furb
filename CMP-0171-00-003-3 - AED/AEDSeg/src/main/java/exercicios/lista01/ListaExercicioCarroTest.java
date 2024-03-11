@@ -101,12 +101,15 @@ class ListaExercicioCarroTest {
     	lista.inserir(new Carro("AAA-1111","Maria"));
     	lista.inserir(new Carro("BBB-2222", "João"));
     	lista.inserir(new Carro("CCC-3333", "Ana"));
+    	
     	Carro carroEsperado = new Carro("DDD-4444", "Pedro");
-		lista.inserir(carroEsperado);
+    	lista.inserir(carroEsperado);
+		
+    	Carro novoCarro = new Carro("DDD-4444", "Pedro");
 
         Carro valorEncontrado = lista.obterElemento(3);
 
-        assertEquals(carroEsperado, valorEncontrado);
+        assertEquals(novoCarro, valorEncontrado);
     }
 
     @Test
