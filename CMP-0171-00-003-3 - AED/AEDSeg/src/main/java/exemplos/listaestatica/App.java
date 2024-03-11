@@ -1,5 +1,7 @@
 package exemplos.listaestatica;
 
+import exercicios.lista01.Carro;
+
 public class App {
 
     public static void main(String[] args) {
@@ -32,6 +34,8 @@ public class App {
     	listaEstatica.retirar(21);
 
     	listaEstatica.exibir();
+    	
+    	ListaEstaticaGenerica<Carro> listaCarros = new ListaEstaticaGenerica<Carro>();
     	
     }
 }
