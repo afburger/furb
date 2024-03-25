@@ -5,14 +5,15 @@ public class ListaEncadeadaTempoTest {
 	public static void main(String[] args) {
 		long startTime = System.nanoTime();
 
-		ListaEncadeada lista = new ListaEncadeada();
+		ListaEncadeada<Integer> lista = new ListaEncadeada<>();
 
-		for (int i = 0; i < 1000000; i++) {
-			lista.adicionar(i);
+		for (int i = 0; i < 100000; i++) {
+			lista.inserir(i);
 		}
 
-		for (int i = 0; i < 1000000; i++) {
-			int elemento = lista.obter(i);
+		for (int i = 0; i < 100000; i++) {
+			NoLista<Integer> elementoEncontrado = lista.buscar(i);
+			int elemento = elementoEncontrado.getInfo();
 		}
 
 		long endTime = System.nanoTime();

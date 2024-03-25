@@ -7,7 +7,7 @@ public class ListaEstaticaTempoTest {
 
         ListaEstaticaGenerica<Integer> lista = new ListaEstaticaGenerica<>();
 
-        for (int i = 0; i < 1000000; i++) {
+        for (int i = 0; i < 100000; i++) {
             lista.inserir(i);
         }
 

@@ -3,12 +3,12 @@ package exercicios.lista03;
 public class ListaEncadeadaMemoryTest {
 
 	public static void main(String[] args) {
-		ListaEncadeada lista = new ListaEncadeada();
+		ListaEncadeada<Integer> lista = new ListaEncadeada<>();
 
         long memoryBefore = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
 
-        for (int i = 0; i < 1000000; i++) {
-            lista.adicionar(i);
+        for (int i = 0; i < 100000; i++) {
+            lista.inserir(i);
         }
 
         long memoryAfter = Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory();
