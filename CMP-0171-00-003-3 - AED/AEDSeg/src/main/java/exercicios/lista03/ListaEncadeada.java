@@ -84,14 +84,6 @@ public class ListaEncadeada<T> {
 		}
 	}
 
-	public void exibir() {
-		NoLista<T> atual = primeiro;
-		while (atual != null) {
-			System.out.println(atual.getInfo());
-			atual = atual.getProximo();
-		}
-	}
-
 	/**
 	 * Calcula a quantidade de nós da lista
 	 * 
@@ -110,9 +102,9 @@ public class ListaEncadeada<T> {
 		return qtdeNos;
 	}
 
-	public NoLista<T> obterNov2(int posicao) {
+	public NoLista<T> obterNo(int posicao) {
 		if ((posicao < 0) || (posicao > obterComprimento()-1)) {
-			throw new IllegalArgumentException("Indice n�o existe");
+			throw new IllegalArgumentException("Indice não existe");
 		}
 
 		NoLista<T> p = getPrimeiro();
@@ -123,31 +115,15 @@ public class ListaEncadeada<T> {
 		return p;
 	}
 
-	/**
-	 * Obtém um elemento da lista, 
-	 * partindo da posição do elemento na lista
-	 * 
-	 * @param idx Posição do elemento na lista
-	 * @return Nó
-	 */
-	public NoLista<T> obterNo(int idx) {
-		if (idx < 0) {
-			throw new IndexOutOfBoundsException();
+	public void exibir() {
+		NoLista<T> atual = primeiro;
+		while (atual != null) {
+			System.out.println(atual.getInfo());
+			atual = atual.getProximo();
 		}
-
-		NoLista<T> p = getPrimeiro();
-		while ((p!= null) && (idx > 0)) {
-			idx--;
-			p = p.getProximo();
-		}
-
-		if (p == null) {
-			throw new IndexOutOfBoundsException();
-		}
-
-		return p;
 	}
-
+	
+	@Override
 	public String toString() {
 		String resultado = "";
 		NoLista<T> p = getPrimeiro();
@@ -162,24 +138,6 @@ public class ListaEncadeada<T> {
 		}
 
 		return resultado;
-	}
-
-	/**
-	 * Cria uma nova lista encadeada, cujo conteúdo é igual ao do objeto atual,
-	 * porém com os dados armazenados em ordem invertida
-	 * 
-	 * @return nova lista encadeada
-	 */
-	public ListaEncadeada<T> criarInvertida() {
-		ListaEncadeada<T> nova = new ListaEncadeada<>();
-
-		NoLista<T> p = getPrimeiro();
-		while (p != null) {
-			nova.inserir(p.getInfo());
-			p = p.getProximo();
-		}
-
-		return nova;
 	}
 
 }
