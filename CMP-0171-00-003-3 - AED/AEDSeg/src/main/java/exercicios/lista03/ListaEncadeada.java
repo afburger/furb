@@ -5,13 +5,6 @@ public class ListaEncadeada<T> {
 	private NoLista<T> primeiro;
 
 	/**
-	 * Construtor padrão. Cria lista vazia
-	 */
-	public ListaEncadeada() {
-		this.primeiro = null;
-	}
-
-	/**
 	 * Getter da variável primeiro
 	 * 
 	 * @return Primeiro valor da lista
@@ -77,7 +70,7 @@ public class ListaEncadeada<T> {
 
 		if (atual != null) {
 			if (atual == primeiro) {
-				primeiro = primeiro.getProximo();
+				primeiro = atual.getProximo();
 			} else {
 				anterior.setProximo(atual.getProximo());
 			}
@@ -92,11 +85,11 @@ public class ListaEncadeada<T> {
 	public int obterComprimento() {
 		int qtdeNos = 0;
 
-		NoLista<T> p = getPrimeiro();
+		NoLista<T> atual = getPrimeiro();
 
-		while (p != null) {
+		while (atual != null) {
 			qtdeNos++;
-			p = p.getProximo();
+			atual = atual.getProximo();
 		}
 
 		return qtdeNos;
@@ -126,15 +119,15 @@ public class ListaEncadeada<T> {
 	@Override
 	public String toString() {
 		String resultado = "";
-		NoLista<T> p = getPrimeiro();
+		NoLista<T> atual = getPrimeiro();
 
-		while (p != null) {
-			if (p != getPrimeiro()) {
+		while (atual != null) {
+			if (atual != getPrimeiro()) {
 				resultado += ",";
 			}
 
-			resultado += p.getInfo().toString();
-			p = p.getProximo();
+			resultado += atual.getInfo().toString();
+			atual = atual.getProximo();
 		}
 
 		return resultado;

@@ -11,11 +11,6 @@ public class ListaEncadeadaTempoTest {
 			lista.inserir(i);
 		}
 
-		for (int i = 0; i < 100000; i++) {
-			NoLista<Integer> elementoEncontrado = lista.buscar(i);
-			int elemento = elementoEncontrado.getInfo();
-		}
-
 		long endTime = System.nanoTime();
 		long duration = (endTime - startTime) / 1000000; // Tempo em milissegundos
 		System.out.println("Tempo total para lista encadeada: " + duration + "ms");
