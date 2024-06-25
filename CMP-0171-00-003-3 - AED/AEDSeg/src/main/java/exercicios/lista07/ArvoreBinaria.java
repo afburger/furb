@@ -191,4 +191,48 @@ public class ArvoreBinaria <T> {
 		}
 	}
 
+	// Método auxiliar só para demonstrar na correção da prova
+	private boolean isNoInterno(NoArvoreBinaria<T> no) {
+		return no.getEsquerda() != null || no.getDireita() != null;
+	}
+	
+//	// Questão 01 da prova prática.
+//	public boolean isDegenerada() {
+//		return isDegenerada(raiz);
+//	}
+//	
+//	// Questão 01 da prova prática.
+//	private boolean isDegenerada(NoArvoreBinaria<T> no) {
+//		if (no == null 
+//				|| (no.getEsquerda() != null && no.getDireita() != null)) {
+//			return false;
+//		}
+//
+//		if (no.getEsquerda() != null) {
+//			if (isNoInterno(no.getEsquerda())) {
+//				return isDegenerada(no.getEsquerda());
+//			} 
+//			return true;
+//		} 
+//		if (no.getDireita() != null) {
+//			if (isNoInterno(no.getDireita())) {
+//				return isDegenerada(no.getDireita());
+//			}
+//			return true;
+//		}
+//		return false;
+//	}
+	public boolean isDegenerada() {
+		if (raiz == null) {
+			return false;
+		} else {
+			if (raiz.getEsquerda() != null && raiz.getDireita() != null) {
+				return false;
+			}
+		}
+		if (raiz.getDireita() == null || raiz.getEsquerda() == null) {
+			return true;
+		}
+		return true;
+	}
 }

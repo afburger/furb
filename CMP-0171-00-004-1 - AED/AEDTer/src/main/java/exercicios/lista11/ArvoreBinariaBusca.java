@@ -150,6 +150,87 @@ public class ArvoreBinariaBusca<T extends Comparable<T>>
 		}
 	}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	public boolean isDegenerada() {
+		NoArvoreBinaria<T> p = getRaiz();
+		
+		while (p!=null) {
+			if (p.getEsquerda()!=null && p.getDireita()!=null) {
+				return false;
+			} else {
+				if (p.getEsquerda()!=null) {
+					p = p.getEsquerda();
+				} else {
+					p = p.getDireita();
+				}
+			}
+		}
+		
+		return true;
+	}
+	
+
+	/**
+	 * Retorna a altura da �rvore
+	 * @return altura da �rvore
+	
+	public int altura(){
+		return altura(raiz);
+	}
+	
+	private int altura(NoArvoreBinaria<T> no){
+		if (no == null)
+			return -1;
+		else 
+			return 1 + Math.max(altura(no.getEsquerda()), altura(no.getDireita()));
+	}
+	
+	
+	public boolean isBalanceada() {
+		return isBalanceada(getRaiz());
+	}
+	
+	
+	private boolean isBalanceada(NoArvoreBinaria<T> p) {
+		if (p == null) {
+			return true;
+		} else {
+			int qtdeNosEsquerda = altura(p.getEsquerda());
+			int qtdeNosDireita  = altura(p.getDireita());
+			int difAlturas = qtdeNosEsquerda - qtdeNosDireita;
+			if (difAlturas < 0) 
+				difAlturas = difAlturas * -1;
+			if (difAlturas > 1) {
+				return false;
+			} else {
+				if (!isBalanceada(p.getEsquerda()))
+					return false;
+				else if (!isBalanceada(p.getDireita())) {
+					return false;
+				}
+				
+				return true;
+			}
+		}
+	}
+	*/
+	
 }
 
 

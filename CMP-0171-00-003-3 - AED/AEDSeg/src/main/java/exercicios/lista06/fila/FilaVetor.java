@@ -198,6 +198,22 @@ public class FilaVetor<T> implements Fila<T> {
 		return vetor;
 	}
 
+//	// Questão 02 da prova prática.
+//	public void encolher() {
+//		T[] novoVetor = (T[]) new Object[tamanho];
+//		
+//		int contator = 0;
+//		int fim = inicio + tamanho;
+//		for (int i = inicio; i < fim; i++) {
+//			novoVetor[contator] = info[i];
+//			contator++;
+//		}
+//		
+//		this.info = novoVetor;
+//		this.inicio = 0;
+//		this.limite = tamanho; 
+//	}
+	
 	public T[] getInfo() {
 		return info;
 	}

@@ -1,4 +1,4 @@
-package exercicios.lista11;
+package provas.prova03.auxiliares;
 
 public class ArvoreBinariaBusca<T extends Comparable<T>>
 		extends ArvoreBinariaAbstract<T> {

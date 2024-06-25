@@ -75,6 +75,37 @@ public class FilaVetor implements Fila {
 		return retorno;
 	}
 	
+	public void encolher() {
+
+		if (tamanho == 0) { // Fila vazia, não há necessidade de encolher
+			return;
+		}
+
+		// Criar um novo vetor com o tamanho necessário
+		int novoTamanho = tamanho; // Tamanho mínimo necessário
+		for (int i = 0; i < tamanho - 1; i++) {
+			if (info[(inicio + i + 1) % limite] == 0) {
+				novoTamanho--; // Descontar posições vazias no final
+
+			}
+		}
+
+		int[] novoInfo = new int[novoTamanho];
+
+		// Copiar elementos da fila antiga para a nova
+		for (int i = 0; i < tamanho; i++) {
+
+			novoInfo[i] = info[(inicio + i) % limite];
+
+		}
+
+		// Atualizar atributos da fila
+		info = novoInfo;
+		limite = novoTamanho;
+		inicio = 0; // Início sempre na primeira posição do novo vetor
+
+	}
+	
 	public int getInicio() {
 		return inicio;
 	}
