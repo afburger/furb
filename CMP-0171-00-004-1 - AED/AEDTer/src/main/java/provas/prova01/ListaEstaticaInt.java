@@ -207,4 +207,18 @@ public class ListaEstaticaInt {
 		tamanho++;
 	} 
 	
+	// Questão 1 prova prática faltantes
+	public void inserir3(int valor) {
+		if (tamanho == info.length) {
+			redimensionar();
+		}  
+		
+		for (int i = tamanho - 1 ; i >= 0 ; i--) {
+			info[i+1] = info[i];
+		}
+		info[0] = valor;
+
+		tamanho++;
+	}
+	
 }

@@ -8,7 +8,7 @@ public class QuestaoPratica {
 
 	public static void main(String[] args) {
 		questao1();
-//		questao2();
+		questao2();
 	}
 
 	private static void questao1() {

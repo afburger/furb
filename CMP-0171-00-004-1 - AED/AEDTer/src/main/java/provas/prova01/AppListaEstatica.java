@@ -40,18 +40,37 @@ public class AppListaEstatica {
 //		
 		
 		// ######################### Questão 1 - Prática  ##############################################
-		// Questão 1 prova prática.
+				// Questão 1 prova prática.
 		ListaEstaticaInt prova =  new ListaEstaticaInt();
 		
 		prova.inserir2(20);
 		prova.inserir2(25);
 		prova.inserir2(30);
+		
 		System.out.println("Antes de inseir o 22");
 		System.out.println(prova.toString());
-		
 		
 		prova.inserir2(22);
 		System.out.println("Depois de inseir o 22");
 		System.out.println(prova.toString());
+		
+		// ######################### Questão 1 - Prática Prova Recuperação Faltantes ##############################################
+		// Questão 1 prova prática - Prática Prova Recuperação Faltantes.
+		ListaEstaticaInt provaFaltantes =  new ListaEstaticaInt();
+		
+		provaFaltantes.inserir3(27);
+		provaFaltantes.inserir3(18);
+		provaFaltantes.inserir3(1);
+		System.out.println("Antes de inseir o 21");
+		System.out.println(provaFaltantes.toString());
+		
+		
+		prova.inserir3(21);
+		System.out.println("Depois de inseir o 21");
+		System.out.println(prova.toString());
+		
+		
+		
+		
 	}
 }
